@@ -17,3 +17,11 @@ Para que o objetivo do projeto seja atingido é necessário que os seguinte requ
 6. O aplicativo deve conter uma tela para edição do perfil do usuário, onde ele deve informar o nome completo e enviar uma foto de perfil, que deve ser obtida a partir da câmera do celular;
 6. O aplicativo deve oferecer uma opção para que o usuário finalize a sua sessão e retorne a tela de login;
 7. O aplicativo deve consumir uma API Rest e o resultado desse consumo deve alterar de alguma maneira os dados exibidos ao usuário;
+
+
+## Data limite de entrega
+06/05/2019
+
+
+## Data limite de correção dos trabalhos
+16/05/2019
