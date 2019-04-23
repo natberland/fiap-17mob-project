@@ -20,8 +20,8 @@ Para que o objetivo do projeto seja atingido é necessário que os seguinte requ
 
 
 ## Data limite de entrega
-06/05/2019
+20/05/2019
 
 
 ## Data limite de correção dos trabalhos
-16/05/2019
+30/05/2019
