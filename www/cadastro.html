@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Cadastre-se</title>
+</head>
+
+<body>
+
+
+        <div class="logoarea">
+
+                <img src="img/natlogo.png" alt="Avatar" class="avatar">
+    
+        </div>
+    
+        <div class="intro">
+    
+                <h3>Bem-vindo</h3> 
+                <p>Esse é o feed de notícias da Nathalie. Saiu primeiro no NYT e depois aqui!</p>
+    
+        </div>
+
+    <div class="container">
+        <h2>Cadastre-se</h2>
+        <hr>
+        <label for="email"><b>E-mail</b></label>
+        <input type="text" placeholder="Email" name="email" id="email" required>
+
+        <label for="psw"><b>Senha</b></label>
+        <input type="password" placeholder="Senha" name="psw" id="psw" required>
+
+        <label for="psw-repeat"><b>Repetir Senha</b></label>
+        <input type="password" placeholder="Repetir Senha" name="psw-repeat" id="psw-repeat" required>
+
+        <div class="clearfix">
+            <button onclick="btmRegistrar()" class="signupbtn">Cadastrar</button>
+            <hr>
+            <button onclick="btmVoltarCadastro()">Voltar</button>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    <script type="text/javascript" src="js/cadastro.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
+    <script type="text/javascript" src="js/firebase.js"></script>
+    <script type="text/javascript" src="js/noticias.js"></script>
+</body>
+
+</html>

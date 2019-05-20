@@ -18,10 +18,11 @@ Para que o objetivo do projeto seja atingido é necessário que os seguinte requ
 6. O aplicativo deve oferecer uma opção para que o usuário finalize a sua sessão e retorne a tela de login;
 7. O aplicativo deve consumir uma API Rest e o resultado desse consumo deve alterar de alguma maneira os dados exibidos ao usuário;
 
+## Instalação
+Para rodar o projeto, execute os seguintes passos:
 
-## Data limite de entrega
-20/05/2019
-
-
-## Data limite de correção dos trabalhos
-30/05/2019
+1. npm install
+2. cordova platform add android
+3. Copiar o arquivo "google-services.json" que está na raiz do projeto para "platforms\android\app"
+4. cordova build android
+5. cordova run android
